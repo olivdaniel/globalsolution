@@ -17,6 +17,7 @@ hr {
 }
 
 .rodape__titulo {
+    font-family: var(--fonte-titulo);
     font-size: 23px;
     font-weight: 700;
 }

@@ -1,19 +1,19 @@
 @import url(fome.css);
 
-.dadosfome__card--titulo{
+.dadosfome__card--titulo {
     font-weight: bold;
     font-size: 24px;
 }
 
-.dadosfome__card--texto{
+.dadosfome__card--texto {
     font-size: 18px;
 }
 
-.dadosfome__card5{
+.dadosfome__card5 {
     margin-bottom: 3em;
 }
 
-.dadosCont1{
+.dadosCont1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     gap: 1em;
 }
 
-.dadosCont1Card{
+.dadosCont1Card {
     background-color: white;
     border-radius: 10px;
     padding: 1em;
@@ -34,15 +34,14 @@
     flex-direction: column;
 }
 
-.grafIA{
+.grafIA {
     width: 370px;
     border-radius: 10px;
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-
 }
 
-.dadosCont2{
+.dadosCont2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +50,7 @@
     gap: 1em;
 }
 
-.dadosCont2Card{
+.dadosCont2Card {
     background-color: white;
     border-radius: 10px;
     padding: 1em;
@@ -64,13 +63,13 @@
 
 }
 
-.imgGrafFome{
+.imgGrafFome {
     width: 390px;
     border-radius: 35px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.dadosCont3{
+.dadosCont3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +78,7 @@
     gap: 1em;
 }
 
-.dadosCont3Card{
+.dadosCont3Card {
     background-color: white;
     border-radius: 10px;
     padding: 1em;
@@ -91,7 +90,7 @@
     flex-direction: column;
 }
 
-.dadosCont4{
+.dadosCont4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +99,7 @@
     gap: 1em;
 }
 
-.dadosCont4Card{
+.dadosCont4Card {
     background-color: white;
     border-radius: 10px;
     padding: 1em;
@@ -112,7 +111,7 @@
     flex-direction: column;
 }
 
-.dadosCont5{
+.dadosCont5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,7 +120,7 @@
     gap: 1em;
 }
 
-.dadosCont5Card{
+.dadosCont5Card {
     background-color: white;
     border-radius: 10px;
     padding: 1em;
@@ -133,11 +132,11 @@
     flex-direction: column;
 }
 
-.btn__dica{
+.btn__dica {
     padding: 1em;
     border: none;
     background-color: var(--verde);
-    color: white;
+    color: var(--branco);
     border-radius: 25px;
     font-size: 15px;
     font-weight: 700;
@@ -145,11 +144,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn__dica:hover{
+.btn__dica:hover {
     background-color: rgb(0, 112, 0);
 }
 
-.dadosInseguranca{
+.dadosInseguranca {
     border-radius: 10px;
     padding: 0.5em;
     display: flex;
@@ -165,7 +164,7 @@
     font-size: 13.5px;
 }
 
-.tituloInseguranca{
+.tituloInseguranca {
     font-size: 20px;
     font-weight: bold;
     background-color: white;
@@ -176,13 +175,13 @@
     margin: 0 1em;
 }
 
-.imgFomesDados{
+.imgFomesDados {
     width: 350px;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btnDadosInseguranca{
+.btnDadosInseguranca {
     background-color: beige;
     padding: 1em 2em;
     border: 2px solid rgb(180, 168, 3);
@@ -193,94 +192,94 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btnDadosInseguranca:hover{
+.btnDadosInseguranca:hover {
     background-color: bisque;
 }
 
 
-@media screen and (min-width:1024px){
-    .dadosInseguranca{
+@media screen and (min-width:1024px) {
+    .dadosInseguranca {
         font-size: 20px;
         width: 1000px;
     }
-    
-    .imgFomesDados{
+
+    .imgFomesDados {
         width: 450px;
         border-radius: 20px;
     }
 
-    .tituloInseguranca{
+    .tituloInseguranca {
         margin-top: 2em;
         font-size: 23px;
     }
 
-    .dadosCont1Card{
+    .dadosCont1Card {
         width: 600px;
         flex-direction: column;
         font-size: 16px;
         height: 416px;
     }
 
-    .dadosCont1{
+    .dadosCont1 {
         display: flex;
         flex-direction: row;
         gap: 3em;
     }
 
-    .grafIA{
+    .grafIA {
         width: 600px;
     }
 
-    .dadosCont2{
+    .dadosCont2 {
         margin-top: 3em;
         gap: 3em;
         flex-direction: row-reverse;
     }
 
-    .dadosCont2Card{
-    width: 600px;
-    flex-direction: column;
-    font-size: 16px;
-    height: 280px;
+    .dadosCont2Card {
+        width: 600px;
+        flex-direction: column;
+        font-size: 16px;
+        height: 280px;
     }
 
-    .imgGrafFome{
+    .imgGrafFome {
         width: 700px;
         border-radius: 35px;
     }
 
-    .dadosCont3{
+    .dadosCont3 {
         margin-top: 3em;
         gap: 3em;
         flex-direction: row-reverse;
     }
 
-    .dadosCont3Card{
+    .dadosCont3Card {
         width: 600px;
         flex-direction: column;
         font-size: 16px;
         height: 345px;
     }
 
-    .dadosCont4{
+    .dadosCont4 {
         margin-top: 3em;
         gap: 3em;
         flex-direction: row
     }
-    
-    .dadosCont4Card{
+
+    .dadosCont4Card {
         width: 600px;
         flex-direction: column;
         font-size: 16px;
     }
 
-    .dadosCont5{
+    .dadosCont5 {
         margin-top: 3em;
         gap: 3em;
         flex-direction: row;
     }
-    
-    .dadosCont5Card{
+
+    .dadosCont5Card {
         width: 600px;
         flex-direction: column;
         font-size: 20px;
@@ -288,4 +287,3 @@
         justify-content: space-between;
     }
 }
-    

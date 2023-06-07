@@ -50,7 +50,7 @@
 }
 
 .lista-menu__titulo {
-    color: var(--laranja);
+    color: var(--preto);
     font-weight: 700;
 }
 
@@ -67,19 +67,18 @@
 }
 
 .container__link {
-    margin: 0 auto;
     text-decoration: none;
     color: var(--preto);
     font-family: var(--fonte-titulo);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
 }
 
-.b1{
+.b1 {
     color: var(--verde);
 }
 
-.b2{
+.b2 {
     color: rgb(76, 114, 238);
 }
 
@@ -99,7 +98,6 @@
     }
 
     .opcoes__item {
-        padding: 0 1em;
         text-transform: uppercase;
         cursor: pointer;
     }

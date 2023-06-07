@@ -10,14 +10,12 @@
 :root {
     --cor-de-fundo: #ebecee;
     --branco: #ffffff;
-    --laranja: #FBEA5C;
-    --amarelo-claro: #eb9b00;
     --verde-degrade: linear-gradient(97.54deg, #006E51 35.49%, #339E73 165.37%);
     --fonte-principal: 'Poppins';
     --verde: #006E51;
     --fonte-secundaria: 'Joseph sans';
-    --fonte-titulo: 'Roboto Condensed'
-        --preto: #000000;
+    --fonte-titulo: 'Roboto Condensed';
+    --preto: #000000;
     --cinza: #474646;
     --cinza-claro: #858585;
 }
@@ -29,18 +27,4 @@ body {
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
-}
-
-.call-to-action {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.call-to-action button {
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
 }
